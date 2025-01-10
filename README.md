@@ -117,3 +117,31 @@ Below are step-by-step instructions to install and set up the project’s depend
         - Use the app interface to upload your Excel file and enter your OpenAI API Key.
 
     ---
+
+
+    ## Docker Compose
+
+    To run the application using Docker Compose, follow these steps:
+
+    1. **Create a `docker-compose.yml` file** in the root directory of your project with the following content:
+        ```yaml
+        version: '3.8'
+
+        services:
+          streamlit:
+            image: streamlit_image
+            build: .
+            ports:
+              - "8501:8501"
+            volumes:
+              - .:/app
+        ```
+
+    2. **Build and start the application** using Docker Compose:
+        ```bash
+        docker-compose up --build
+        ```
+
+    3. **Open your browser**:
+        - The app usually starts at [http://localhost:8501](http://localhost:8501).
+        - Use the app interface to upload your Excel file and enter your OpenAI API Key.
