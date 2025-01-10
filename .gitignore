@@ -1,0 +1,19 @@
+# Ignore environment variable files
+.env
+
+# Ignore virtual environments
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Add additional rules as needed for your project
