@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  streamlit-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"  # Map container port 8501 to host port 8501
+    volumes:
+      - ./src:/app/src  # Mount the source code directory to the container
+    restart: always  # Restart the container automatically if it stops
