@@ -50,18 +50,30 @@ It utilizes **Streamlit** for the web interface and **pandas** for data handling
    - [os] (part of the Python standard library)
 
 ---
-
 # How to Install
 
 Below are step-by-step instructions to install and set up the project’s dependencies:
 
 1. **Clone or download** this repository:
     ```bash
-    git clone https://github.com/yourusername/your-project.git
-    cd your-project
+    git clone https://github.com/ALaaAlawdi/Yutube-Comments-Labeling.git
+    cd Yutube-Comments-Labeling
     ```
 
-2. **Install required packages** (recommended method using a requirements file):
+2. **Create and activate a virtual environment** (recommended):
+    ```bash
+    python -m venv venv
+    ```
+    - On **Windows**:
+      ```bash
+      venv\Scripts\activate
+      ```
+    - On **macOS/Linux**:
+      ```bash
+      source venv/bin/activate
+      ```
+
+3. **Install required packages** (recommended method using a requirements file):
     ```bash
     pip install -r requirements.txt
     ```
@@ -70,18 +82,18 @@ Below are step-by-step instructions to install and set up the project’s depend
     pip install streamlit pandas openai openpyxl
     ```
 
-3. **Set your OpenAI API Key** if needed:
+4. **Set your OpenAI API Key** if needed:
     ```bash
     export OPENAI_API_KEY="your-api-key-here"
     ```
     Alternatively, you can simply enter your key in the Streamlit text input when prompted.
 
-4. **Run the Streamlit app**:
+5. **Run the Streamlit app**:
     ```bash
-    streamlit run your_script_name.py
+    streamlit run app.py
     ```
 
-5. **Open your browser**:
+6. **Open your browser**:
     - The app usually starts at [http://localhost:8501](http://localhost:8501).
     - Use the app interface to upload your Excel file and enter your OpenAI API Key.
 
