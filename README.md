@@ -55,8 +55,8 @@ Below are step-by-step instructions to install and set up the project’s depend
 
 1. **Clone or download** this repository:
     ```bash
-    git clone https://github.com/yourusername/your-project.git
-    cd your-project
+    git clone https://github.com/ALaaAlawdi/Yutube-Comments-Labeling.git
+    cd Yutube-Comments-Labeling
     ```
 
 2. **Install required packages** (recommended method using a requirements file):
@@ -76,7 +76,7 @@ Below are step-by-step instructions to install and set up the project’s depend
 
 4. **Run the Streamlit app**:
     ```bash
-    streamlit run your_script_name.py
+    streamlit run app.py
     ```
 
 5. **Open your browser**:
