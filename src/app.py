@@ -4,8 +4,6 @@ import openai
 import io
 import os
 
-import subprocess
-
 # Retrieve the OpenAI API key from environment variables
 api_key_env = os.getenv("OPENAI_API_KEY")
 # Set Streamlit page title

@@ -1,0 +1,8 @@
+# this is needed for local development
+[server]
+
+headless = true
+
+runOnSave = true
+
+fileWatcherType = "poll"

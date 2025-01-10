@@ -84,3 +84,24 @@ Below are step-by-step instructions to install and set up the project’s depend
 5. **Open your browser**:
     - The app usually starts at [http://localhost:8501](http://localhost:8501).
     - Use the app interface to upload your Excel file and enter your OpenAI API Key.
+
+
+    ## Usage
+
+    To run the application using Docker, follow these steps:
+
+    1. **Build the Docker image**:
+        ```bash
+        docker build -t streamlit_image .
+        ```
+
+    2. **Run the Docker container**:
+        ```bash
+        docker run --name streamlit_container -p 8501:8501 -d -v %cd%:/app streamlit_image
+        ```
+
+    3. **Open your browser**:
+        - The app usually starts at [http://localhost:8501](http://localhost:8501).
+        - Use the app interface to upload your Excel file and enter your OpenAI API Key.
+
+    ---
