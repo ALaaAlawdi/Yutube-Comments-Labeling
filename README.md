@@ -8,7 +8,7 @@ A simple **Streamlit** application that uses the **OpenAI** API to classify YouT
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Author](#author)
+- [Author](#Alaa Alawdi)
 - [License](#license)
 
 ---
